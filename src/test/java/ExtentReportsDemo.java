@@ -20,7 +20,7 @@ public class ExtentReportsDemo {
         extentReports = new ExtentReports();
         extentReports.attachReporter(report);
         extentReports.setSystemInfo("Tester", "Jagadeesh");
-
+        System.out.println("Hi! I'm Y. I made some changes");
     }
     @Test
     public void initialDemo(){
