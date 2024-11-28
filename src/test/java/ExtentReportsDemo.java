@@ -21,6 +21,7 @@ public class ExtentReportsDemo {
         extentReports.attachReporter(report);
         extentReports.setSystemInfo("Tester", "Jagadeesh");
         System.out.println("Hi! I'm Y. I made some changes");
+        System.out.println("Hi! I'm X. I made some changes");
     }
     @Test
     public void initialDemo(){
@@ -30,6 +31,7 @@ public class ExtentReportsDemo {
         driver.get("https://www.google.com");
         System.out.println(driver.getTitle());
         test.fail("Result not matched");
+        System.out.println("Hi! I'm X. I made some changes");
 
         extentReports.flush();
 
